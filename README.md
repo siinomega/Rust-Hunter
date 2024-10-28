@@ -1,5 +1,3 @@
-Rust-Hunter API est un outil léger et efficace développé en Rust pour interagir avec l'API de Hunter.io. Il permet de récupérer rapidement des informations sur des domaines, facilitant ainsi les évaluations de sécurité et les tests d'intrusion. Avec des capacités asynchrones et un affichage coloré, cet outil garantit une expérience utilisateur fluide et intuitive.
-
 # 🖥️ Rust-Hunter API
 
 **Rust-Hunter API** is a lightweight and efficient tool built in Rust for interacting with the Hunter.io API. Designed for speed and security, it quickly retrieves domain-related data, making it an ideal tool for web penetration testing and security assessments.
