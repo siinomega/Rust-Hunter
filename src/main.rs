@@ -17,9 +17,6 @@ struct Args {
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let args = Args::parse();
     let client = Client::new();
-    let _banner = client.get("https://gist.githubusercontent.com/siinomega/56d6242d7103035f10ea3995a0e43cf6/raw");
-    let banner = client.get("https://gist.githubusercontent.com/siinomega/56d6242d7103035f10ea3995a0e43cf6/raw");
-    println!("{:?}", banner);
     let key = client.get("https://gist.githubusercontent.com/siinomega/344aa5cd3af8a2dba9b6bfc486ad8dea/raw").send().await?.text().await?;
     let endpoint = "https://api.hunter.io/v2/domain-search?domain=";
     let auth = "&api_key=";
