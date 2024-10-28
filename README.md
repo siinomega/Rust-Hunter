@@ -1,5 +1,3 @@
-Rust Dir-Scan is a lightweight and efficient directory scanner built in Rust. Designed for speed and security, it quickly scans directories, making it an ideal tool for web penetration testing and security assessments.
-
 # 🖥️ Rust-Hunter API
 
 **Rust-Hunter API** is a lightweight and efficient tool built in Rust for interacting with the Hunter.io API. Designed for speed and security, it quickly retrieves domain-related data, making it an ideal tool for web penetration testing and security assessments.
